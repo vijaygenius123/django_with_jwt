@@ -1,0 +1,10 @@
+.venv/
+
+*.pyc
+*.db
+*.pid
+
+# Migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
