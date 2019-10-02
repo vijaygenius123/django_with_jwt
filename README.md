@@ -37,7 +37,7 @@ This reposository steps to setup a Django project with JWT authentication.
 
       [ ...,
       path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-      ath('api/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+      path('api/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
       ]
 
 4. Create a Superuser and start the server to start using the endpoints
